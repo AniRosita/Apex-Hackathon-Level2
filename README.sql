@@ -1,0 +1,18 @@
+CREATE TABLE STUDENT_DATASET (
+    id                 NUMBER PRIMARY KEY,
+    name               VARCHAR2(100),
+    nationality        VARCHAR2(100),
+    city               VARCHAR2(100),
+    latitude           NUMBER,
+    longitude          NUMBER,
+    gender             VARCHAR2(10),
+    ethnic_group       VARCHAR2(50),
+    age                NUMBER,
+    english_grade      NUMBER(3,1),
+    math_grade         NUMBER(3,1),
+    sciences_grade     NUMBER(3,1),
+    language_grade     NUMBER(3,1),
+    portfolio_rating   NUMBER,
+    coverletter_rating NUMBER(3,1),
+    refletter_rating   NUMBER
+);
