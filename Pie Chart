@@ -1,0 +1,7 @@
+SELECT 'English' as subject, ROUND(AVG(english_grade), 2) as avg_score FROM STUDENT_DATASET
+UNION ALL
+SELECT 'Math', ROUND(AVG(math_grade), 2) FROM STUDENT_DATASET
+UNION ALL
+SELECT 'Sciences', ROUND(AVG(sciences_grade), 2) FROM STUDENT_DATASET
+UNION ALL
+SELECT 'Language', ROUND(AVG(language_grade), 2) FROM STUDENT_DATASET
