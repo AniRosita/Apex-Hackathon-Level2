@@ -1,0 +1,7 @@
+SELECT 
+    gender AS label, 
+    COUNT(*) AS value
+FROM 
+    STUDENT_DATASET
+GROUP BY 
+    gender;
