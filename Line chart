@@ -1,0 +1,9 @@
+SELECT 
+    age AS label,
+    ROUND(AVG(math_grade + english_grade + sciences_grade) / 3, 2) AS value
+FROM 
+    STUDENT_DATASET
+GROUP BY 
+    age
+ORDER BY 
+    age ASC;
